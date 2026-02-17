@@ -412,11 +412,10 @@ LOGOUT_REDIRECT_URL = "/"
 # ===============================
 # CORS
 # ===============================
-CORS_ALLOWED_ORIGINS = config(
-    "CORS_ALLOWED_ORIGINS",
-    default="http://localhost:5173"
-).split(",")
-
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://fullstack-blogging-app-frontend.onrender.com",  # <-- frontend URL
+]
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
