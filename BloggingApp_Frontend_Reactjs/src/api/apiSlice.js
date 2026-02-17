@@ -191,9 +191,8 @@ export const apiSlice = createApi({
         await cacheDataLoaded;
 
         // ✅ Connect to WebSocket server
-        const ws = new WebSocket(
-  `${import.meta.env.VITE_API_URL.replace("https", "wss")}/ws/reactions/`
-);
+  const WS_BASE = import.meta.env.VITE_API_URL.replace("https", "wss");
+  const ws = new WebSocket(`${WS_BASE}/ws/reactions/`);
 
         ws.onmessage = (event) => {
           const data = JSON.parse(event.data);
