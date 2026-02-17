@@ -1,0 +1,63 @@
+# Python
+BloggingApp_Django_Reactjs/sonuvenv/
+BloggingApp_Django_Reactjs/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+
+# Node
+BloggingApp_Frontend_Reactjs/node_modules/
+BloggingApp_Frontend_Reactjs/dist/
+
+# Env files
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Node modules
+node_modules/
+
+# Vite build folder
+dist/
+
+# Env files
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+

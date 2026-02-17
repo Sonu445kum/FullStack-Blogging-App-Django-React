@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.loader {
+  border-top-color: #3b82f6; /* Tailwind blue-500 */
+  animation: spin 1s linear infinite;
+}
